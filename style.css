@@ -125,6 +125,7 @@ input::placeholder {
     font-weight: var(--weight-regular);
     cursor: default;
     text-align: right;
+    opacity: 0.9;
 }
 
 
@@ -153,7 +154,7 @@ input::placeholder {
 @media screen and (max-width: 768px) {
     :root {
     /* Font Size */
-    --font-micro: 8px;
+    --font-micro: 6px;
     --font-small: 14px;
     --font-medium: 16px;
     --font-regular: 24px;
