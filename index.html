@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momento</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Clock -->
+    <div class="js-clock">
+        <h1>00:00</h1>
+    </div>
+
+    <!-- Ask Name -->
+    <form class="js-form form">
+        <input type="text" placeholder="What is your name?">
+    </form>
+    <h4 class="js-greeting greeting"></h4>
+
+    <!-- To Do List -->
+    <form class="js-toDoForm">
+        <input type="text" placeholder="What is your plan today?">
+    </form>
+    <ul class="js-toDoList"></ul>
+
+    <!-- Weather -->
+    <span class="js-weather"></span>
+    
+    <script src="./js/clock.js" defer></script>
+    <script src="./js/greeting.js" defer></script>
+    <script src="./js/todo.js" defer></script>
+    <script src="./js/bg.js" defer></script>
+    <script src="./js/weather.js" defer></script>
+</body>
+</html>
