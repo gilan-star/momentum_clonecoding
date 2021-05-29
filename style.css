@@ -159,4 +159,9 @@ input::placeholder {
     --font-regular: 24px;
     --font-large: 80px;
     }
+
+    .js-weather {
+        top: 10px;
+        right: 10px;
+    }
 }
