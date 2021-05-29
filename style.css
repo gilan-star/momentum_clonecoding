@@ -5,7 +5,7 @@
     --font-small: 16px;
     --font-medium: 18px;
     --font-regular: 32px;
-    --font-large: 120px;
+    --font-large: 130px;
 
     /* Font Weight */
     --weight-light: 300;
@@ -36,17 +36,6 @@ button {
     border: 0;
     cursor: pointer;
 }
-
-/* input {
-    width: 250px;
-    background: none;
-    border: 0;
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 5px;
-    text-align: center;
-    font-size: var(--font-small);
-    color: #ffffff;
-} */
 
 input {
     width: 250px;
@@ -86,6 +75,10 @@ input::placeholder {
 
 .showing {
     display: block;
+}
+
+.js-form {
+    margin-top: 20px;
 }
 
 .js-form input {
