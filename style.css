@@ -1,7 +1,7 @@
 /* Global */
 :root {
     /* Font Size */
-    --font-micro: 10px;
+    --font-micro: 14px;
     --font-small: 16px;
     --font-medium: 18px;
     --font-regular: 32px;
@@ -128,10 +128,10 @@ input::placeholder {
     position: absolute;
     top: 20px;
     right: 20px;
-    font-size: var(--font-micro);
+    font-size: var(--font-small);
     font-weight: var(--weight-regular);
-    font-style: italic;
     cursor: default;
+    text-align: right;
 }
 
 
